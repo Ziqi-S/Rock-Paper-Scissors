@@ -39,8 +39,8 @@ let score = localStorage.getItem('score') ? JSON.parse(localStorage.getItem('sco
 
     document.querySelector('.js-result').innerHTML = result;
     document.querySelector('.js-move').innerHTML = 
-        `You <img src="images/${choice}-emoji.png" class="move-icon">
-        <img src="images/${computerMove}-emoji.png" class="move-icon"> Computer`;
+        `You <img src="images/${choice.toLowerCase()}-emoji.png" class="move-icon">
+        <img src="images/${computerMove.toLowerCase()}-emoji.png" class="move-icon"> Computer`;
   
     updateScoreElement();//update the website showup
   }
