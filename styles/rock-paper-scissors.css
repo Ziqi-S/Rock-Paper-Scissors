@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: arial;
+  }
+
+  .game-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .move-icon{
+    height: 50px;
+    background-color: transparent;
+    
+  }
+
+  .move-button{
+    border: 3px solid white;
+    background-color: transparent;
+    margin-right: 15px;
+    border-radius: 100px;
+    padding: 30px;
+    cursor: pointer;
+  }
+
+  .js-result{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .js-score{
+    margin-top: 50px;
+  }
+  .reset-button{
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
