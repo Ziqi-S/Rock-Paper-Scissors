@@ -33,7 +33,8 @@ body{
   .js-score{
     margin-top: 50px;
   }
-  .reset-button{
+
+  .reset-button, .autoplay-button{
     font-size: 15px;
     border: none;
     background-color: white;
